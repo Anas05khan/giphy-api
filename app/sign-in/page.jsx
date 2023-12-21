@@ -15,10 +15,6 @@ const SignIn = () => {
         const res = await signInWithEmailAndPassword(email, password);
         console.log({res});
         sessionStorage.setItem('user', true)
-        <a
-          href="http://127.0.0.1:5500/firebase-auth/giphy/index.html"
-          target="_blank"
-        >
           setEmail('');
           setPassword('');
         router.push('/')
