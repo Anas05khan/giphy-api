@@ -1,5 +1,5 @@
 {
-  "name": "firebase-auth",
+  "name": "giphy-search-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,11 +9,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "firebase": "^10.7.1",
+    "@giphy/js-fetch-api": "^5.2.0",
+    "@giphy/react-components": "^9.2.3",
     "next": "14.0.4",
     "react": "^18",
-    "react-dom": "^18",
-    "react-firebase-hooks": "^5.1.1"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "autoprefixer": "^10.0.1",
